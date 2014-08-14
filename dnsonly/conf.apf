@@ -367,7 +367,7 @@ HELPER_FTP_DATA="20"
 IG_TCP_CPORTS="22,53,2087"
 
 # Common inbound (ingress) UDP ports
-IG_UDP_CPORTS="53,68"
+IG_UDP_CPORTS="53,68,123"
 
 # Common ICMP inbound (ingress) types
 # 'internals/icmp.types' for type definition; 'all' is wildcard for any
@@ -394,7 +394,7 @@ EGF="1"
 EG_TCP_CPORTS="22,25,53,80,443"
 
 # Common outbound (egress) UDP ports
-EG_UDP_CPORTS="53,67"
+EG_UDP_CPORTS="53,67,123"
 
 # Common ICMP outbound (egress) types
 # 'internals/icmp.types' for type definition; 'all' is wildcard for any
